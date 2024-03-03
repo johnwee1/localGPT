@@ -8,6 +8,7 @@ from langchain.embeddings import HuggingFaceInstructEmbeddings
 from langchain.llms import HuggingFacePipeline
 from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHandler  # for streaming response
 from langchain.callbacks.manager import CallbackManager
+import competitionutils
 
 callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])
 
@@ -252,8 +253,10 @@ def main(device_type, show_sources, use_history, model_type, save_qa):
     qa = retrieval_qa_pipline(device_type, use_history, promptTemplate_type=model_type)
     # Interactive questions and answers
     while True:
-        query = input("\nEnter a query: ")
-        if query == "exit":
+        query = competitionutils.getLine('questions.txt')
+        if query == None: 
+            # Handle when lines reaches the end
+            print('Job finished / questions exhausted')
             break
         # Get the answer from the chain
         res = qa(query)
