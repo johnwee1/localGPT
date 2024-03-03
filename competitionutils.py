@@ -2,9 +2,9 @@ import csv
 import os
 import json
 
-CSV_LOG_NAME = 'qa_log.csv' # shouldn't need to access this
 JSON_FILETRACKER = os.path.join('question_bank', 'info.json') # path to dictionary that tracks the location of the line for the question file
 
+## DELETE THE JSON FILE TO RESET THE COUNTER FOR EVERYTHING!
 def getLine(filename):
     '''Given the prefix of the given questions textfile, check the local database against the line number read and continue querying from there.
     Returns str value while valid.
@@ -30,16 +30,20 @@ def getLine(filename):
     if line_number == len(questions):
         return None
     
-    db[filename] = line_number+1
+    return questions[line_number]
+
+def incrementDict(filename):
+    db = {}
+    with open(JSON_FILETRACKER, 'r') as f:
+        db = json.load(f)
+    db[filename] = db.get(filename, 0) + 1
         
 
     # Save if the DB is updated
     with open(JSON_FILETRACKER, 'w') as f:
         json.dump(db, f)
     
-    return questions[line_number]
-    
-
-print(getLine('questions.txt'))
+if __name__=="__main__":
+    print(getLine('sanitized_stanford_ml_notes_questions.txt'))
 
 

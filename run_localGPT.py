@@ -39,6 +39,9 @@ from constants import (
     CHROMA_SETTINGS,
 )
 
+############# FILENAME OF THE QUESTION .TXT FILE IN THE question_bank subdirectory GOES HERE #################
+FILENAME = 'sanitized_stanford_ml_notes_questions.txt'
+
 
 def load_model(device_type, model_id, model_basename=None, LOGGING=logging):
     """
@@ -253,13 +256,14 @@ def main(device_type, show_sources, use_history, model_type, save_qa):
     qa = retrieval_qa_pipline(device_type, use_history, promptTemplate_type=model_type)
     # Interactive questions and answers
     while True:
-        query = competitionutils.getLine('questions.txt')
+        query = competitionutils.getLine(FILENAME)
         if query == None: 
             # Handle when lines reaches the end
             print('Job finished / questions exhausted')
             break
         # Get the answer from the chain
         res = qa(query)
+        competitionutils.incrementDict(FILENAME)
         answer, docs = res["result"], res["source_documents"]
 
         # Print the result
@@ -278,7 +282,7 @@ def main(device_type, show_sources, use_history, model_type, save_qa):
 
         # Log the Q&A to CSV only if save_qa is True
         if save_qa:
-            utils.log_to_csv(query, answer)
+            utils.log_to_csv(query, answer, FILENAME)
 
 
 if __name__ == "__main__":

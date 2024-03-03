@@ -5,11 +5,12 @@ from constants import EMBEDDING_MODEL_NAME
 from langchain.embeddings import HuggingFaceInstructEmbeddings
 from langchain.embeddings import HuggingFaceBgeEmbeddings
 from langchain.embeddings import HuggingFaceEmbeddings
+from pathlib import Path
 
 
-def log_to_csv(question, answer):
+def log_to_csv(question, answer, filename):
 
-    log_dir, log_file = "local_chat_history", "qa_log.csv"
+    log_dir, log_file = "local_chat_history", f"{Path(filename).stem}_log.csv"
     # Ensure log directory exists, create if not
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
@@ -52,7 +53,7 @@ def get_embeddings(device_type="cuda"):
             model_kwargs={"device": device_type},
         )
 
-
+## NOT USED
 def run_question_file(directory):
     """
     Opens a directory and gets the path of a text file if it exists.

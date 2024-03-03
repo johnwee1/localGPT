@@ -1,0 +1,7 @@
+timestamp,question,answer
+2024-03-04 02:22:27,"What is the canonical response function?
+"," The canonical response function is a function that maps a parameter value η to the expected value of the output variable T(y) as a function of the input variable y. It is denoted by g(η) = E[T(y); η]. The inverse of the canonical response function is called the canonical link function, and it is denoted by g^-1.
+
+In summary, the canonical response function for the Gaussian family is the identity function, and the canonical response function for the Bernoulli family is the logistic function."
+2024-03-04 02:22:50,"What is the canonical link function?
+"," The canonical link function is the inverse of the canonical response function. It is used in machine learning to define a transformation from the latent variable space to the output space. The choice of the canonical link function depends on the type of distribution being used in the model. For example, the canonical link function for the Gaussian distribution is the identity function, and the canonical link function for the Bernoulli distribution is the logistic function."
