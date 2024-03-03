@@ -51,3 +51,56 @@ def get_embeddings(device_type="cuda"):
             model_name=EMBEDDING_MODEL_NAME,
             model_kwargs={"device": device_type},
         )
+
+
+def run_question_file(directory):
+    """
+    Opens a directory and gets the path of a text file if it exists.
+    
+    Parameters:
+        directory (str): The path of the directory to search.
+    
+    Returns:
+        str: The path of the text file if found, otherwise returns None.
+    """
+    # Check if the directory exists
+    if os.path.exists(directory) and os.path.isdir(directory):
+
+        # List all files in the directory
+        files = os.listdir(directory)
+        query_number, query_array = 0,[]
+
+         # Flag to indicate if CSV file is found
+        csv_found = False
+
+        # Iterate through the files
+        for file in files:
+            file_path = os.path.join(directory, file)  # Construct the full file path
+
+            # Check if the file has a csv file (ends with .csv)
+            print(file_path)
+            if file.endswith(".csv"):
+                #return number in file
+                csv_found = True
+                with open(file_path, "r") as f:
+                    query_number = f.readline()
+            else:
+                #return question array
+                with open(file_path, "r") as f:
+                    query_array = f.readlines()
+
+        # If no CSV file is found, create one with integer 0
+        if not csv_found:
+            csv_file_path = os.path.join(directory, "question_number.csv")
+            try:
+                with open(csv_file_path, "w") as f:
+                    f.write("0\n")
+                query_number = 0
+            except Exception as e:
+                print(f"Error creating CSV file: {e}")
+
+        return [query_array, query_number]
+
+    else:
+        print("Invalid directory path.")
+        return []

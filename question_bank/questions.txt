@@ -1,0 +1,150 @@
+Describe the concept of accountability in machine learning
+Explain the concept of contrastive language image pre-training in machine learning
+Describe the concept of object detection in machine learning
+Describe the concept of TIES-merging (TRIM, ELECT SIGN & MERGE) in the context of merging large language models
+What is the difference between a model and a tracking system?
+Explain the concept of interpretability in machine learning
+Describe the concept of quantization in machine learning
+Describe the concept of transfer learning in machine learning
+Describe the concept of large language models in machine learning
+What is the difference between a model and a dependency parser?
+Explain the concept of jailbreaking in machine learning
+Describe the concept of alignment to human preferences in machine learning
+What is the difference between a model and a decision support system?
+Explain the concept of low ranked adapation in machine learning
+What is the difference between a model and a hypothesis?
+Explain the concept of clustering in machine learning
+Describe the concept of explainability in machine learning
+Explain the concept of jailbreaking in machine learning
+Describe the concept of precision and recall in machine learning
+Describe the concept of alignment to human preferences in machine learning
+Describe the concept of latent diffusion models in machine learning
+Describe the concept of dialogue systems in machine learning
+Explain the concept of knowledge distillation in machine learning
+Describe the concept of TIES-merging (TRIM, ELECT SIGN & MERGE) in the context of merging large language models
+Describe the concept of large language models in machine learning
+What is the difference between a model and a generation system?
+What is the difference between a convolutional neural network and a recurrent neural network?
+What is the difference between a model and a framework?
+What is the difference between a support vector machine and a decision tree?
+Describe the concept of selective state spaces in machine learning
+Explain the concept of feature selection in machine learning
+Describe the concept of precision and recall in machine learning
+Describe the concept of multi-head attention in machine learning
+Explain the concept of reward models in machine learning
+Explain the concept of tokenization in machine learning
+Explain the concept of clustering in machine learning
+Explain the concept of direct preference optimization in machine learning
+What is the difference between a model and a predictive maintenance system?
+Explain the concept of data poisoning in machine learning
+Describe the concept of drug discovery in machine learning
+Explain the concept of contrastive language image pre-training in machine learning
+Describe the concept of collaborative filtering in machine learning
+Describe the concept of Generative Adversarial Networks in machine learning
+Describe the concept of quantization in machine learning
+Describe the concept of thinking step by step in machine learning
+Explain the concept of supervised fine tuning in machine learning
+Explain the concept of reinforcement learning with human feedback in machine learning
+Explain the concept of jailbreaking in machine learning
+What is the difference between a clustering algorithm and a dimensionality reduction algorithm?
+Describe the concept of natural language understanding in machine learning
+Describe the concept of prompt engineering in machine learning
+What is the difference between a model and a decision support system?
+Explain the concept of system prompts in machine learning
+Describe the concept of byte pair encodings in machine learning
+What is the difference between a model and a predictive maintenance system?
+Describe the concept of tree of thought prompting in machine learning
+Explain the concept of speculative decoding in machine learning inference
+Describe the concept of TIES-merging (TRIM, ELECT SIGN & MERGE) in the context of merging large language models
+Explain the concept of hallucination in machine learning
+Explain the concept of precision agriculture in machine learning
+Explain the concept of supervised fine tuning in machine learning
+Describe the concept of bfloat16 in machine learning
+Explain the concept of feature selection in machine learning
+Explain the concept of tokenization in machine learning
+Explain the concept of proximal policy optimization in machine learning
+What is the difference between a model and a chatbot?
+Describe the concept of object detection in machine learning
+What is the difference between tensor parallelism and pipeline parallelism in distributed deep learning?
+What is the difference between a model and a spam filter?
+Describe the concept of large language models in machine learning
+What is the difference between a model and a recognition system?
+Explain the concept of paged attention in machine learning
+Explain the concept of prompt injection in machine learning
+What is the difference between a model and a generation system?
+Explain the concept of reinforcement learning in machine learning
+What is the difference between a model and a predictive maintenance system?
+Explain the concept of interpretability in machine learning
+Describe the concept of backpropagation in machine learning
+What is the difference between a clustering algorithm and a dimensionality reduction algorithm?
+Describe the concept of foundation models in machine learning
+Explain the concept of speculative decoding in machine learning inference
+Explain the concept of reinforcement learning in machine learning
+What is the difference between a type I error and a type II error?
+Explain the concept of interpretability in machine learning
+What is the difference between a model and a framework?
+What is the difference between a support vector machine and a decision tree?
+Explain the concept of direct preference optimization in machine learning
+Describe the concept of thinking step by step in machine learning
+What is the difference between a training set and a test set?
+Describe the concept of accountability in machine learning
+Explain the concept of natural language processing in machine learning
+Describe the concept of Spherical Linear Interpolation (SLERP) in the context of merging large language models
+What is the difference between supervised and unsupervised learning?
+What is the difference between a model and a recommendation system?
+What is the purpose of cross-validation in machine learning?
+What is the difference between a model and a language model?
+Explain the process of data preprocessing in machine learning
+Describe the concept of dialogue systems in machine learning
+Explain the concept of reinforcement learning with human feedback in machine learning
+Describe the concept of part-of-speech tagging in machine learning
+Describe the concept of multi-head attention in machine learning
+Explain the concept of paged attention in machine learning
+What is the difference between cosine similarity and dot product similarity measures in the context of vector databases?
+Explain the concept of anomaly detection in machine learning
+Describe the concept of FMOps or LLMOps in machine learning
+Explain the concept of paged attention in machine learning
+What is the difference between a model and a customer service chatbot?
+What is the difference between a model and a dependency parser?
+Describe the concept of activations in machine learning
+What is the difference between a confusion matrix and a ROC curve?
+Explain the concept of knowledge distillation in machine learning
+Explain the concept of reward models in machine learning
+Describe the concept of precision and recall in machine learning
+Describe the concept of the forward pass in machine learning
+What is the difference between reinforcement learning from human feedback and direct preference optimization?
+Describe the concept of few shot learning in machine learning
+Explain the concept of flash attention in machine learning
+Explain the concept of reward models in machine learning
+Describe the concept of bfloat16 in machine learning
+What is the difference between a loss function and a cost function?
+Explain the concept of retrieval augmented generation in machine learning
+What is the difference between a model and a generation system?
+Explain the concept of human-in-the-loop in machine learning
+Explain the concept of precision agriculture in machine learning
+Describe the concept of precision and recall in machine learning
+What is the difference between a model and a recommendation system?
+Explain the concept of low ranked adapation in machine learning
+Describe the concept of tree of thought prompting in machine learning
+Explain the concept of human-in-the-loop in machine learning
+What is the difference between a model and a tracking system?
+Describe the concept of bias and variance in machine learning
+What is the difference between supervised and unsupervised learning?
+Describe the concept of byte pair encodings in machine learning
+Describe the concept of Generative Adversarial Networks in machine learning
+Explain the concept of speculative decoding in machine learning inference
+What is the difference between a feature and a label?
+What is the difference between a model and a decision support system?
+Explain the concept of stochastic gradient descent in machine learning
+Describe the concept of TIES-merging (TRIM, ELECT SIGN & MERGE) in the context of merging large language models
+Describe the concept of few shot learning in machine learning
+Explain the concept of speculative decoding in machine learning inference
+Describe the concept of Spherical Linear Interpolation (SLERP) in the context of merging large language models
+Explain the concept of direct preference optimization in machine learning
+What is the difference between supervised and unsupervised learning?
+What is the difference between a type I error and a type II error?
+What is the difference between a clustering algorithm and a dimensionality reduction algorithm?
+Describe the concept of regularization in machine learning
+Describe the concept of approximate nearest neighbor search in machine learning
+Explain the process of data preprocessing in machine learning
+What is the difference between a generator and a discriminator in a GAN?
