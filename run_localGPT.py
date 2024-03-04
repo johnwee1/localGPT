@@ -40,7 +40,7 @@ from constants import (
 )
 
 ############# FILENAME OF THE QUESTION .TXT FILE IN THE question_bank subdirectory GOES HERE #################
-FILENAME = 'questions.txt'
+FILENAME = 'sanitized_reinforcement_learning_qns.txt'
 
 
 def load_model(device_type, model_id, model_basename=None, LOGGING=logging):
