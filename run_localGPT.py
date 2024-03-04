@@ -40,7 +40,7 @@ from constants import (
 )
 
 ############# FILENAME OF THE QUESTION .TXT FILE IN THE question_bank subdirectory GOES HERE #################
-FILENAME = 'sanitized_stanford_ml_notes_questions.txt'
+FILENAME = 'questions.txt'
 
 
 def load_model(device_type, model_id, model_basename=None, LOGGING=logging):
@@ -282,7 +282,7 @@ def main(device_type, show_sources, use_history, model_type, save_qa):
 
         # Log the Q&A to CSV only if save_qa is True
         if save_qa:
-            utils.log_to_csv(query, answer, FILENAME)
+            utils.log_to_jsonl(query, answer, FILENAME)
 
 
 if __name__ == "__main__":

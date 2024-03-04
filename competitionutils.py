@@ -1,5 +1,5 @@
-import csv
 import os
+import csv
 import json
 
 JSON_FILETRACKER = os.path.join('question_bank', 'info.json') # path to dictionary that tracks the location of the line for the question file
@@ -43,7 +43,23 @@ def incrementDict(filename):
     with open(JSON_FILETRACKER, 'w') as f:
         json.dump(db, f)
     
-if __name__=="__main__":
-    print(getLine('sanitized_stanford_ml_notes_questions.txt'))
+## not used yet
+def read_csv_with_headers(file_path):
+    data = []
+    with open(file_path, 'r', newline='') as file:
+        csv_reader = csv.DictReader(file)
+        for row in csv_reader:
+            data.append(row)
+    with open('tempjson.jsonl', 'w') as f:
+        for row in data:
+            json.dump(row, f)
+            f.write('\n')
 
+
+
+
+
+# if __name__=="__main__":
+    # print(getLine('sanitized_stanford_ml_notes_questions.txt'))
+    # read_csv_with_headers('local_chat_history/questions_log.csv')
 

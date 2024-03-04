@@ -1,11 +1,28 @@
 import os
 import csv
+import json
 from datetime import datetime
 from constants import EMBEDDING_MODEL_NAME
 from langchain.embeddings import HuggingFaceInstructEmbeddings
 from langchain.embeddings import HuggingFaceBgeEmbeddings
 from langchain.embeddings import HuggingFaceEmbeddings
 from pathlib import Path
+
+def log_to_jsonl(question, answer, filename):
+    log_dir, log_file = "local_chat_history", f"{Path(filename).stem}_log.jsonl"
+    
+    # Ensure log directory exists, create if not
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
+
+    # Construct the full file path
+    log_path = os.path.join(log_dir, log_file)
+
+    log_entry = {"instruction": question, "context": "", "response": answer}
+
+    with open(log_path, mode="a", encoding="utf-8") as file:
+        json.dump(log_entry, file)
+        file.write('\n')
 
 
 def log_to_csv(question, answer, filename):
