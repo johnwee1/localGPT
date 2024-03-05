@@ -39,8 +39,6 @@ from constants import (
     CHROMA_SETTINGS,
 )
 
-############# FILENAME OF THE QUESTION .TXT FILE IN THE question_bank subdirectory GOES HERE #################
-FILENAME = 'sanitized_reinforcement_learning_qns.txt'
 
 
 def load_model(device_type, model_id, model_basename=None, LOGGING=logging):
@@ -224,7 +222,12 @@ def retrieval_qa_pipline(device_type, use_history, promptTemplate_type="llama"):
     is_flag=True,
     help="whether to save Q&A pairs to a CSV file (Default is False)",
 )
-def main(device_type, show_sources, use_history, model_type, save_qa):
+@click.option(
+    "--file",
+    "-f",
+    help="sanitized_filename_qns.txt or whichever",
+)
+def main(device_type, show_sources, use_history, model_type, save_qa, file):
     """
     Implements the main information retrieval task for a localGPT.
 
@@ -244,6 +247,9 @@ def main(device_type, show_sources, use_history, model_type, save_qa):
     - The source documents are displayed if the show_sources flag is set to True.
 
     """
+    if file is None or not save_qa:
+        print("Error: try python run_localGPT.py --device_type mps --save_qa --file filename.txt")
+        return
 
     logging.info(f"Running on: {device_type}")
     logging.info(f"Display Source Documents set to: {show_sources}")
@@ -256,14 +262,14 @@ def main(device_type, show_sources, use_history, model_type, save_qa):
     qa = retrieval_qa_pipline(device_type, use_history, promptTemplate_type=model_type)
     # Interactive questions and answers
     while True:
-        query = competitionutils.getLine(FILENAME)
+        query = competitionutils.getLine(file)
         if query == None: 
             # Handle when lines reaches the end
             print('Job finished / questions exhausted')
             break
         # Get the answer from the chain
         res = qa(query)
-        competitionutils.incrementDict(FILENAME)
+        competitionutils.incrementDict(file)
         answer, docs = res["result"], res["source_documents"]
 
         # Print the result
@@ -282,7 +288,7 @@ def main(device_type, show_sources, use_history, model_type, save_qa):
 
         # Log the Q&A to CSV only if save_qa is True
         if save_qa:
-            utils.log_to_jsonl(query, answer, FILENAME)
+            utils.log_to_jsonl(query, answer, file)
 
 
 if __name__ == "__main__":

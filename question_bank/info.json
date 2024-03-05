@@ -1,1 +1,7 @@
-{"sanitized_stanford_ml_notes_questions.txt": 253, "questions.txt": 150, "sanitized_reinforcement_learning_qns.txt": 558}
+{
+    "sanitized_stanford_ml_notes_questions.txt": 253,
+    "questions.txt": 150,
+    "sanitized_reinforcement_learning_qns.txt": 558,
+    "sanitized_ISLP_website_qns.txt": 1244,
+    "sanitized_nlp_qns.txt": 105
+}

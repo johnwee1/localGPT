@@ -1,0 +1,1263 @@
+What is the purpose of dropout regularization in machine learning models?
+How is zoneout regularization used in LSTM layers?
+What are the benefits of using simpler building blocks like vanilla LSTM and convolutional layers in the encoder and decoder of a model?
+How does the "stoptoken" prediction contribute to the termination of generation during inference?
+In what way does the WaveNet vocoder invert the mel spectrogram feature representation into time-domain waveforms?
+What is the purpose of using a 10-component mixture of logistic distributions (MoL) in the WaveNet architecture?
+How does dilated convolution work in the context of speech synthesis?
+What is the role of causal or masked convolutions in autoregressive left-to-right processing?
+How does the use of dilated convolutions in the Tacotron 2 synthesizer help grow the receptive field exponentially with depth?
+How is the quality of synthesized utterances evaluated in speech synthesis systems?
+How does wake word detection work and why is it important for voice-enabled assistants?
+What is speaker diarization and how is it useful for transcribing audio recordings?
+What are the differences between speaker verification and speaker identification tasks in speaker recognition?
+How is language identification related to speaker recognition and what is its purpose?
+What is the concept of 'How are speech recognition systems evaluated and compared using MOS and AB tests?#### Questions about Projectivity:'?
+What is the additional constraint imposed by projectivity?
+How is an arc from a head to a dependent defined as projective?
+What is a projective dependency tree?
+Can non-projective trees exist in languages with flexible word order?
+How can projectivity be detected in dependency trees?
+What are the concerns related to projectivity in English dependency treebanks?
+What are the computational limitations of transition-based parsing algorithms?
+What is the motivation for the graph-based parsing approach?
+How are dependency treebanks created?
+What is the Universal Dependencies project and how many treebanks does it have?
+What is transition-based parsing based on?
+What are the components of a transition-based parser?
+How does the parser walk through the sentence?
+What are the three transition operators used in transition-based parsing?
+What are the preconditions for using the LEFTARC and RIGHTARC operators?
+What does the arc standard approach to transition-based parsing entail?
+How is the state of the parse represented in a transition-based parser?
+What is the role of the oracle in transition-based parsing?
+How is the oracle trained?
+What is the concept of 'How is training data generated for the oracle in transition-based parsing?#### Questions about Machine Learning and Related Subtopics:'?
+What is the purpose of sentence realization in natural language generation?
+How does delexicalization help in training a sentence realizer?
+What is the role of an encoder-decoder model in mapping frames to delexicalized sentences?
+What are some common sources of training data for chatbots?
+How are chatbots trained on dialogue data?
+How do datasets created for training chatbots differ from traditional language model training data?
+What are some common architectures used for training chatbots?
+How does fine-tuning improve the quality and safety of dialogue systems?
+How can language models be used for retrieval in chatbots?
+What is the RLHF method for training chatbots?
+How are chatbots evaluated, and what are some common evaluation metrics?
+How is dialogue system design linked to Human-Computer Interaction (HCI)?
+What is the decoding algorithm used in the IBM system for speech processing?
+What caused the spread of the HMM paradigm in the speech community?
+What were the limitations of large hybrid models in the early stages of neural alternatives to the HMM/GMM architecture?
+What were some of the improvements made to hybrid HMM/GMM feedforward networks to enhance their performance?
+What are some popular toolkits for speech processing?
+What were the three early paradigms of waveform synthesis?
+What are the three paradigms of TTS systems?
+What is the role of linguistic structure in modern NLP?
+What are some algorithms for parsing linguistic structures?
+What is the CKY algorithm used for?
+What is the purpose of treebanks in syntactic analysis?
+What is parse ambiguity and why is it a problem?
+How does the CKY algorithm handle parse ambiguity?
+What are some metrics used to evaluate parser accuracy?1. What is the purpose of a confusion matrix in dependency parsing? 
+What are the main points covered in the chapter on dependency parsing? 
+How do dependency-based approaches to syntax describe the structure of a sentence? 
+What kind of information does dependency-based analysis provide for further language processing tasks? 
+What are the two main types of approaches used in creating dependency structures? 
+How are transition-based parsing systems developed? 
+What are treebanks and how are they used in training dependency parsers? 
+How is the evaluation of dependency parsers conducted? 
+What is the historical background of dependency grammar? 
+Who introduced automatic parsing using dependency grammars in computational linguistics? 
+What are some notable implementations of dependency parsers for English? 
+Who developed an efficient dynamic programming approach to dependency parsing based on bilexical grammars? 
+What is the shift-reduce parsing algorithm based on? 
+Who defined the modern, deterministic, transition-based approach to dependency parsing? 
+Who introduced the graph-based maximum spanning tree approach to dependency parsing? 
+What is the Prague Dependency Treebank project and what does it aim to annotate? 
+What is Universal Dependencies and what is its purpose? 
+What shared tasks related to dependency parsing have been conducted by the Conference on Natural Language Learning (CoNLL)? 
+What is the task of relation extraction in information extraction? 
+How are semantic relations classified and what are some examples? 
+What is the purpose of knowledge graphs in relation extraction? 
+What is event extraction and how is it related to relation extraction? 
+How are events situated in time and how are temporal expressions recognized? 
+What is the task of template filling in information extraction? 
+What is the concept of 'What are some examples of datasets used for training and testing relation extractors? [[3]]#### Questions:'?
+What are the two problems that graph-based algorithms have to solve?
+What is the purpose of creating a graph in graph-based parsing?
+What does a maximum spanning tree represent in graph-based parsing?
+How does the Chu-Liu Edmonds algorithm eliminate cycles in the selected edges?
+What are some of the features used in a feature-based algorithm for assigning scores?
+What is the difference between labeled and unlabeled attachment accuracy?
+What is the purpose of the label-scorer in the Dozat and Manning algorithm?
+What is the purpose of the maximum spanning tree algorithm in the neural algorithm for assigning scores?
+What are the common evaluation metrics for dependency parsers?
+What is the concept of 'How is the labeled attachment score (LAS) calculated?Here are some questions related to "Machine Learning" and its subtopics that can be generated from the given text:'?
+What is the metric called slot error rate used for in dialogue systems?
+How are ASR systems trained differently from TTS systems?
+What is the LJ speech corpus and how does it differ from standard ASR corpora?
+What are the two components of the TTS task?
+What is the purpose of text normalization preprocessing in TTS systems?
+How are non-standard words handled in TTS systems?
+What are some examples of non-standard word types in English?
+How can rule-based normalization be done in TTS systems?
+What are the advantages and disadvantages of using rules for normalization?
+How do encoder-decoder models work in TTS systems?
+What is the architecture of the Tacotron2 model for TTS?
+What is the role of the encoder in Tacotron2?
+How does the decoder in Tacotron2 generate the mel spectrogram?
+What is the purpose of the vocoder in TTS systems?
+How does the vocoder in Tacotron2 work?
+What is the architecture of the WaveNet vocoder?
+How is the Tacotron2 system trained?
+Where can I find more details about temporal annotation standards?
+What are some sample ISO patterns for representing various times and durations?
+What are the major approaches to temporal normalization?
+How are temporal expressions in news articles typically anchored?
+How are expressions like "today," "yesterday," and "tomorrow" computed with respect to the document's temporal anchor?
+How are relative temporal expressions handled?
+What is the goal of temporal analysis?
+What is the task of imposing a partial ordering on events and temporal expressions mentioned in a text called?
+What are some systems that perform all four tasks of time extraction, event extraction, and time/event linking?
+What is template filling?
+What are scripts in the context of template filling?
+How are templates represented in template filling?
+What are some machine learning approaches to template filling?
+What are the two separate supervised systems used in template filling?
+How is template recognition modeled?
+How is role-filler extraction performed in template filling?
+What is the concept of 'How are complex templates handled in earlier finite-state template-filling systems?#### Questions:'?
+What are some of the corpora that mark richer discourse phenomena?
+What is the purpose of mention detection in coreference resolution?
+How do mention detection algorithms propose candidate mentions?
+What are some examples of potential mentions in the sample text?
+How do rule-based systems filter out non-referential mentions?
+How do modern systems incorporate learned mention detection components?
+What are some challenges in detecting referential mentions?
+How do architectures for coreference algorithms differ?
+What is the mention-pair architecture and how does it work?
+What is the mention-rank architecture and how does it work?
+What is the concept of 'How is training different in the mention-ranking model compared to the mention-pair model?#### Machine Learning and Related Subtopics Questions:'?
+What is the role of sample rate and sample size in speech data formats?
+What are the parameters that can be adjusted for storing stereo data or two-party conversations?
+What is the purpose of compression formats like µ-law in telephone speech?
+What are some standard file formats for storing digitized wave files?
+What is the purpose of windowing in speech feature extraction?
+What are the characteristics of a rectangular window in windowing?
+How does the Hamming window differ from the rectangular window in windowing?
+What is the purpose of the discrete Fourier transform in speech analysis?
+How is the mel scale used to collect energy from different frequency bands?
+Why is the log of each mel spectrum value taken in speech feature extraction?
+What is the basic architecture for automatic speech recognition (ASR)?
+What is the purpose of the encoder-decoder architecture in ASR?
+How is the output sequence in ASR typically mapped to letters?
+What is the purpose of subsampling in ASR for speech?
+How is beam search used in ASR with a language model for resocring hypotheses?
+What loss function is typically used for training encoder-decoder models for ASR?
+What is the concept of 'What is the intuition behind the CTC (Connectionist Temporal Classification) algorithm in ASR?### Questions related to "Machine Learning" and Distant Supervision'?
+What are some advantages of distant supervision in relation extraction?
+How does distant supervision differ from supervised, pattern-based, and unsupervised classification methods in relation extraction?
+What are the main challenges or drawbacks of distant supervision in relation extraction?
+How does the distant supervision algorithm for relation extraction work?
+How does distant supervision handle relations not present in the training data?
+What is the goal of unsupervised relation extraction?
+How does the ReVerb system extract relations from a sentence?
+What are the syntactic and lexical constraints used in the ReVerb system for relation extraction?
+How does the ReVerb system assign confidence to the extracted relations?
+What are the advantages and disadvantages of unsupervised relation extraction?
+How are supervised relation extraction systems evaluated?
+What are the challenges in evaluating semi-supervised and unsupervised relation extraction methods?
+How is precision approximated for semi-supervised and unsupervised relation extraction methods?
+What approach can be used to compute precision at different levels of recall for relation extraction systems?
+What is the goal of event extraction?
+How are events generally modeled in event extraction tasks?
+What are some examples of event mentions in English text?
+What are some challenges in event extraction when events are introduced by noun phrases or light verbs?
+What is temporal logic and its relevance to representing time?
+What is the interval algebra of Allen and how does it model temporal intervals?
+What are the 13 primitive relations identified by Allen for temporal intervals?
+What is the concept of 'How does Reichenbach's reference point concept account for the nuances of representing time, especially with simple verb tenses?Machine Learning and Related Subtopics Questions:'?
+What is the process of reducing the vocabulary size in natural language processing, and what algorithm is typically used for this purpose?
+How does unigram tokenization compare to Byte Pair Encoding (BPE) in terms of token creation and semantic meaningfulness?
+Can you explain the process of creating training data for machine translation models using a parallel corpus?
+What are some examples of parallel corpora used for training machine translation models, and where are they sourced from?
+What is the significance of sentence alignment in machine translation, and what are the key steps involved in producing sentence alignments between translated documents?
+How is the similarity of sentences across languages scored, and what is the role of a multilingual embedding space in this process?
+What is the standard architecture for machine translation, and how does the encoder-decoder transformer function in this context?
+Can you explain the role of the encoder and decoder in the encoder-decoder transformer architecture for machine translation?
+What distinguishes the decoder transformer block from the transformer block used in the encoder, and what is the purpose of the cross-attention layer in the decoder?
+How is an encoder-decoder model trained, and what is the concept of teacher forcing in this context?
+What are the limitations of greedy decoding in machine translation, and how does the beam search algorithm address these limitations?
+Can you explain the concept of beam search decoding in machine translation, including the notion of beam width and the process of extending hypotheses during decoding?
+What is the purpose of binarization in the binary naive Bayes algorithm?
+How does negation affect sentiment in text classification?
+What is a common technique for dealing with negation in sentiment analysis?
+What are sentiment lexicons and how are they used in text classification?
+Can sentiment lexicons be used as features in a naive Bayes classifier?
+How can lexicons improve the performance of a naive Bayes classifier in text classification?
+What are some popular sentiment lexicons used in text classification?
+What are some other text classification tasks that can be performed using naive Bayes?
+How is naive Bayes used in spam detection?
+What are some common features used in spam detection besides individual words?
+How is naive Bayes used in language identification?
+What types of features are most effective for language identification?
+How is naive Bayes similar to a language model?
+How can a naive Bayes model be viewed as a set of class-specific unigram language models?
+What is the purpose of precision and recall in evaluating text classification systems?
+How can the F-measure be calculated using precision and recall?
+Why is accuracy not a good metric for evaluating text classification systems?
+How can precision and recall be calculated when there are more than two classes in a classification task?
+What is the difference between microaveraging and macroaveraging in evaluating text classification systems?
+How can precision and recall be combined to obtain a single metric for evaluating a text classification system?
+What is the concept of 'The provided text does not contain specific information about machine learning concepts or related subtopics.#### Questions about the Intuition of Transformers and Contextualized Representations'?
+What is the intuition behind transformers in machine learning?
+How do transformers build contextualized representations of input words?
+What is the goal of transformers in producing a contextualized representation for each word?
+How do transformers differ from static vectors in representing the meaning of a word?
+What is the role of self-attention in transformers?
+How does self-attention help compute representations for words in transformers?
+Why is it important for self-attention to look broadly in the context?
+What are some examples of linguistic relationships that self-attention can capture?
+How can the concept of context be used in self-attention?
+What is the difference between causal or backward-looking self-attention and bidirectional self-attention?
+How does causal or backward-looking self-attention determine the context?
+What is the information flow in a single causal self-attention layer?
+How does causal self-attention allow for parallelization in transformers?
+How is self-attention computed more formally?
+What is the core intuition of attention in self-attention?
+How are words compared to each other in self-attention?
+Why is the dot product used in comparing words in self-attention?
+How are the scores between words normalized in self-attention?
+How is the output value computed in self-attention?
+How can the self-attention computation be parallelized using a single matrix?
+What is the problem with the self-attention computation in terms of language modeling?
+How is the issue of future knowledge addressed in self-attention?
+What is the concept of 'What is the purpose of zeroing out the upper-triangular portion of the comparisons matrix in self-attention?#### Questions related to Machine Learning'?
+What are some toolkits that can be used to build web-scale language models?
+What is the Kneser-Ney algorithm and how is it used in language modeling?
+What is the stupid backoff algorithm and how does it differ from Kneser-Ney?
+How does the Kneser-Ney algorithm handle discounting of higher-order probabilities?
+What is the purpose of the Bloom filters in language modeling?
+How does absolute discounting help in smoothing n-gram models?
+What is the intuition behind Kneser-Ney discounting?
+How does Kneser-Ney handle the issue of predicting the next word in a sentence?
+What is the relationship between perplexity and entropy in language modeling?
+How is cross-entropy used to evaluate the performance of an n-gram model?
+What is the advanced smoothing algorithm called Kneser-Ney?
+How does Kneser-Ney smoothing handle interpolating bigram and unigram models?
+What is absolute discounting and how is it related to Kneser-Ney smoothing?
+How does Kneser-Ney smoothing estimate the probability of a word appearing as a novel continuation?
+What is the modified Kneser-Ney smoothing technique and how does it differ from the original?
+How is perplexity related to entropy in language modeling?
+What is the entropy rate and how is it computed for a language model?
+How does the Shannon-McMillan-Breiman theorem relate to entropy and the estimation of cross-entropy?
+How is cross-entropy used to evaluate the performance of a language model?
+How do stochastic processes and stationarity impact the computation of entropy and cross-entropy in language modeling?1. What is the goal of learning a classifier in machine learning?
+What is a probabilistic classifier and why is it useful?
+What are some examples of machine learning algorithms used to build classifiers?
+What is the difference between generative and discriminative classifiers?
+What is the naive Bayes classifier and what is its simplifying assumption?
+How does the naive Bayes classifier represent a text document?
+How does the naive Bayes classifier calculate the posterior probability of a class given a document?
+What is Bayesian inference and how is it used in naive Bayes classification?
+How does a naive Bayes classifier handle the problem of zero probabilities?
+What is the bag-of-words assumption in naive Bayes classification?
+What is the naive Bayes assumption in naive Bayes classification?
+How does the naive Bayes classifier compute the predicted class for a document?
+How does the naive Bayes classifier handle unknown words and stop words?
+How is the naive Bayes classifier trained and what are the probabilities it learns?
+How does add-one smoothing help address the problem of zero probabilities in naive Bayes classification?
+What is the difference between standard naive Bayes and binary naive Bayes?
+What changes are typically made to the naive Bayes classifier for sentiment analysis?1. What is part-of-speech tagging?
+What are the main parts of speech in English?
+What is the difference between a noun and a proper noun?
+What is the difference between a count noun and a mass noun? 
+What is a verb? What are some examples of verb inflections in English?
+What is an adjective?
+What is an adverb? What are some examples of different types of adverbs?
+What is an interjection? What are some examples of interjections?
+What is a preposition? What does a preposition indicate?
+What is a particle? What is a phrasal verb?
+What is a determiner? What are some examples of determiners?
+What is an article? What are the three articles in English?
+What is a conjunction? What are coordinating and subordinating conjunctions?
+What is a complementizer? 
+What is a pronoun? What are some examples of different types of pronouns?
+What is an auxiliary verb? What are some examples of auxiliary verbs in English?
+What is the copula verb?
+What is a modal verb? What are some examples of modal verbs?
+What is a tagset? What is the Penn Treebank tagset?
+What is part-of-speech tagging used for?
+What is the accuracy of state-of-the-art part-of-speech tagging algorithms?
+What percentage of word types and tokens are ambiguous?
+What is the most frequent class baseline for part-of-speech tagging?
+What is a named entity?
+What is named entity recognition (NER)?
+What are some common named entity types?
+What makes named entity recognition more difficult than part-of-speech tagging?
+What is BIO tagging and how is it used for named entity recognition?
+What is logistic regression and how does it solve classification tasks? 
+What are the weights and bias term in logistic regression? 
+How does logistic regression make a decision on a test instance? 
+What is the sigmoid function and how is it related to logistic regression? 
+How does the sigmoid function map a real value to a probability? 
+How is the sigmoid function used to create a probability in logistic regression? 
+How do we ensure that the probabilities for each class sum to 1 in logistic regression? 
+What is the decision boundary in logistic regression? 
+How is the decision boundary used to make a classification decision in logistic regression? 
+What are some examples of applying logistic regression as a classifier for language tasks? 
+How are features designed in logistic regression? 
+What are feature interactions and how are they used in logistic regression? 
+What are feature templates and how are they used in logistic regression? 
+How are input features scaled in logistic regression? 
+What is the difference between standardizing and normalizing input features in logistic regression? 
+How can logistic regression process multiple examples at once? 
+What are the advantages of logistic regression over naive Bayes? 
+When is naive Bayes a reasonable approach to use in classification tasks? 
+What is the concept of 'What is multinomial logistic regression and when is it used? [[1]]Questions without answers:'?
+What does the study by Popp et al. (2003) suggest about the sentiment and emotion assigned to sentences with African American names?
+What are some of the tasks in which classifiers can lead to representational harms and other harms?
+What is the goal of toxicity detection classiﬁers?
+According to the researchers, what are some examples of sentences that are incorrectly flagged as toxic by toxicity classiﬁers?
+How can false positive errors in toxicity detection systems potentially lead to the censoring of discourse?
+What are some of the factors that can cause model problems in machine learning systems?
+What is a model card and what information does it typically document?
+What tasks can be viewed as tasks of classiﬁcation?
+How is text categorization related to sentiment analysis, spam detection, language identiﬁcation, and authorship attribution?
+What is sentiment analysis and what does it classify in a text?
+What assumptions does Naive Bayes make in text classification?
+When does Naive Bayes with binarized features work better for text classification tasks?
+How are classifiers evaluated and trained?
+When should statistical significance tests be used in determining the quality of classifiers?
+What factors should designers of classifiers consider in terms of potential harms caused by the model?
+Who proposed multinomial naive Bayes text classification and for what task?
+What are some historical applications of the naive Bayes algorithm?
+What are some sources that cover different kinds of text classification tasks?
+What are some methods for computing statistical significance in NLP?
+What is feature selection and how is it used in text classification?
+What is logistic regression and how is it different from naive Bayes?
+What is the difference between a generative model and a discriminative model?
+How does logistic regression compute the probability of an observation belonging to a class?
+What are the components of a probabilistic machine learning classifier?
+What are the two phases of logistic regression?
+What is the goal of binary logistic regression?
+What is the concept of 'What is the sigmoid function and how does it help in making binary decisions in logistic regression?#### Questions:'?
+What is the formula for updating the parameter vector in gradient descent?
+How is the gradient computed in logistic regression?
+What is the purpose of stochastic gradient descent?
+What is the learning rate in gradient descent?
+What is the purpose of regularization in logistic regression?
+What is L1 regularization?
+What is L2 regularization?
+How does L1 regularization affect the weight vectors?
+How does L2 regularization affect the weight vectors?
+What is the loss function for binary logistic regression?
+What is the concept of 'How does the loss function for multinomial logistic regression differ from binary logistic regression?#### Questions:'?
+What is tokenization and why is it important in natural language processing?
+What is the Penn Treebank tokenization standard and what does it separate out?
+How does tokenization relate to named entity recognition?
+What is the standard method for tokenization and why is it important for it to be fast?
+What is a clitic and how does it affect tokenization?
+How is tokenization done using regular expressions in the NLTK toolkit?
+What are some challenges in word tokenization for languages like Chinese, Japanese, and Thai?
+What are some methods used for word segmentation in Chinese, Japanese, and Thai?
+What is byte-pair encoding (BPE) and how does it differ from other tokenization methods?
+How does BPE work and how is it applied to a test corpus?
+What is word normalization and why is case folding important?
+When might we want to do further word normalization beyond case folding?
+What is lemmatization and why is it important in NLP?
+How is lemmatization done and what is the role of morphological parsing?
+What is stemming and how does it differ from lemmatization?
+What is the concept of 'What is the Porter stemmer and how does it work?#### Questions:'?
+What is a computation graph and how is it used in machine learning?
+How can the computation graph be represented as a graph?
+What is the purpose of the forward pass in a computation graph?
+How is the backward pass used to compute derivatives in a computation graph?
+What is the chain rule and how is it used in backward differentiation?
+How can the backward pass be represented in a computation graph?
+What are some best practices for successful learning in neural networks?
+How are weights initialized in neural networks and why is it important?
+What is dropout and how does it help prevent overfitting in neural networks?
+What are hyperparameters and how are they tuned in neural networks?
+What are some architectural variants of gradient descent used in neural networks?
+How are computation graphs used in neural networks for gradient computation and parallelization?
+What is a feedforward neural language model and how does it differ from an n-gram model?
+How are words represented in a feedforward neural language model?
+What is the purpose of the embedding layer in a neural language model?
+How are embeddings selected and concatenated in a neural language model?
+How is the output layer of a neural language model used to generate a probability distribution over words?
+What are some advantages of neural language models over n-gram models?
+What are some challenges and complexities associated with neural language models?
+What is the concept of 'How does a feedforward neural language model handle forward inference or decoding?#### Questions about Regular Expressions:'?
+Why do we need to use the parenthesis operators ( and ) in regular expressions?
+How does the disjunction operator | work in regular expressions?
+What is the purpose of the Kleene operator in regular expressions?
+How can we match repeated instances of a string using regular expressions?
+What is the operator precedence hierarchy for regular expressions?
+What is the difference between greedy and non-greedy matching in regular expressions?
+How can we enforce non-greedy matching in regular expressions?
+Can you provide an example of a regular expression to match the word "the"?
+How can we modify the regular expression to correctly match the word "the" when it begins a sentence or is embedded in other words?
+What are false positives and false negatives in the context of regular expressions?
+How can we increase precision and recall when using regular expressions?
+Can you provide some examples of regular expression operators for counting?
+How can we refer to a specific subpart of a string in regular expressions?
+What is a capture group in regular expressions?
+How can we perform substitutions using regular expressions?
+How can we use lookahead assertions in regular expressions?
+What is a corpus and why is it important in language processing?
+What is the Brown corpus and what does it contain?
+How can we determine the number of words in a sentence?
+Should punctuation marks be counted as words in language processing tasks?
+What is the concept of 'How can punctuation marks be useful in language processing?#### Questions about Machine Learning and related subtopics:'?
+What are the different probabilities involved in the Viterbi algorithm?
+How do you tag a sentence using the Viterbi algorithm?
+What are the transition probabilities in the Viterbi algorithm?
+How do you compute the Viterbi path probability?
+What are the observation likelihoods in the Viterbi algorithm?
+How do you compute the state columns in the Viterbi algorithm?
+What is the purpose of the Forward-Backwards algorithm in the Viterbi algorithm?
+What are the limitations of HMMs in achieving high accuracy?
+How can unknown words be handled in POS tagging?
+What are some common feature templates used in CRF POS taggers?
+How are word shape features used in CRF POS taggers?
+What are some features used in CRF Named Entity Recognizers?
+How are gazetteers used in NER systems?
+What are some limitations of using entity dictionaries in NER systems?
+What is the concept of 'How can part-of-speech tags and shape information be incorporated into a sequence labeling model?What are some questions related to "Machine Learning" and its subtopics that can be generated from the provided text?What are some examples of synonyms?#### Questions on Machine Learning Concepts'?
+How does logistic regression classifier compute the probability that two words are likely to occur nearby in text?
+What is the role of Skip-gram in training the classifier for word embeddings?
+What is GloVe and how does it differ from other embedding algorithms?
+How are word and document similarities computed using sparse or dense vectors?
+What are the historical and bibliographical notes related to the idea of vector semantics?
+What were the contributions of linguistics, psychology, and computer science to the model of vector semantics?
+How did the idea of modeling word meaning as a point in a multi-dimensional semantic space originate?
+What were the key contributions from the field of mechanical indexing to the vector space model for information retrieval?
+What are the philosophical underpinnings of the distributional way of thinking, and how are they related to the work of Wittgenstein?
+How is the idea of deﬁning words by a vector of discrete features related to the early semantic features and their representation?
+What is the relationship between dense vectors and the latent semantic indexing (LSI) model?
+How did the word "embedding" come to be used in the context of LSA and neural language models?
+What were the significant developments related to the use of neural language models for word prediction and word meanings?
+What are some alternative matrix models that followed the early SVD work and their applications?
+How do neural networks differ from logistic regression in terms of feature representation learning and classification?
+What are the key characteristics and functions of a neural unit in a neural network?
+How does the sigmoid function differ from the tanh function in terms of output range and behavior?
+What are the properties of the rectified linear unit (ReLU) activation function and its common usage in language applications?
+What are the fundamental algorithmic tools that make up the modern neural language model?
+What are some of the tasks covered in the book related to NLP?
+What is the role of embeddings in modeling word meaning?
+Can you provide an example of a conversation with ELIZA, an early natural language processing system?
+What are some of the techniques used by ELIZA to mimic a Rogerian psychotherapist?
+How successful was ELIZA in mimicking human conversation?
+What are some of the functions of modern conversational agents?
+What is the role of regular expressions in text pattern matching?
+How are regular expressions used in text normalization?
+What is the purpose of tokenization in language processing?
+How are emoticons and hashtags tokenized in text processing?
+What is lemmatization and why is it important in language processing?
+How does stemming differ from lemmatization?
+What is sentence segmentation and why is it necessary in text normalization?
+What is edit distance and how is it used in language processing?
+What are some of the common applications of edit distance in NLP?
+How are regular expressions used in specifying text search strings?
+What is the purpose of concatenation in regular expressions?
+How can we specify optional elements in regular expressions?
+What is the difference between the Kleene star and the Kleene plus in regular expressions?
+How can we use regular expressions to match any character?
+What are anchors in regular expressions and how are they used?
+What is the purpose of the disjunction operator in regular expressions?
+How can we use grouping and precedence in regular expressions?
+What is the purpose of unrolling an input sequence in machine learning?
+How do language models predict the next word in a sequence?
+How do language models assign probabilities to entire sequences?
+What is the difference between n-gram language models and RNN language models?
+How does teacher forcing work in training an RNN language model?
+What is weight tying in an RNN language model?
+How are RNNs used in sequence labeling tasks?
+How are RNNs used in sequence classification tasks?
+How are RNN-based language models used for text generation?
+What is autoregressive generation in the context of language models?
+What are stacked and bidirectional RNN architectures?
+What is the formula for calculating tf-idf weighted value?
+How does tf-idf weighting combine term frequency and idf?
+In the tf-idf weighted term-document matrix, what happens to the tf-idf values for words that appear in every document?
+How does tf-idf weighting affect the importance of words that appear in a large number of documents?
+Besides information retrieval, in what other aspects of natural language processing does tf-idf weighting play a role?
+What other weightings can be used besides tf-idf, and which one is mentioned in Section 6.6?
+What is the significance of the word "sweet" in Shakespeare's plays?
+How is the tf-idf or PPMI vector model used in document functions like deciding if two documents are similar?
+How can word similarity be computed using the tf-idf or PPMI vector model?
+What are the advantages of using dense embeddings over sparse vectors for word representation?
+What is the skip-gram algorithm in word2vec used for?
+How does word2vec use self-supervision to train word embeddings?
+What is the intuition behind the skip-gram algorithm in word2vec?
+What is the classiﬁcation task in the skip-gram algorithm?
+How does the skip-gram algorithm use logistic regression to train the classiﬁer for word embeddings?1. What is the purpose of the forget gate in an LSTM network?
+How does an LSTM network address the problem of vanishing gradients?  
+What information does the hidden state ht in an LSTM network represent?
+What gates are used in an LSTM network and what is the purpose of each gate?
+What is the difference between a unidirectional RNN and a bidirectional RNN?
+What is the purpose of stacking multiple RNN layers?
+What is the difference between a sequence labeling task and a sequence classification task?
+What type of neural network architecture is used for language modeling tasks?
+What is the encoder-decoder model and what types of tasks is it commonly used for?
+What is the purpose of the context vector in an LSTM network?
+How does a bidirectional RNN make use of context to both the left and right of the current input?  
+What problem does an LSTM help address that is difficult for standard RNNs?
+What is the optimal number of stacked RNN layers dependent on?
+What two RNN models are combined in a bidirectional RNN?
+What information does the backward RNN in a bidirectional RNN represent?
+What are the inputs to an LSTM unit?
+What is the difference between the context vector ct and the hidden state ht in an LSTM?
+What is the purpose of the add gate in an LSTM network?
+How does an LSTM network learn to forget or remember information over time?
+What type of activation function is commonly used for the gates in an LSTM network?
+What is the purpose of including a between-sentence token in the vocabulary?
+How can perplexity be used to compare different n-gram models?
+What does a lower perplexity indicate about a language model's ability to predict words in a test set?
+Why should the n-gram model be constructed without any knowledge of the test set or its vocabulary?
+How can perplexity be thought of as a weighted average branching factor of a language?
+How can sampling be used to visualize the knowledge embodied in a language model?
+How does the coherence of sentences generated by n-gram models change with the length of the context on which the model is trained?
+What is the dependence of an n-gram model on its training corpus?
+How can the problem of sparsity be addressed in n-gram models?
+What is the concept of 'What are unknown words and how are they typically handled in language models using words instead of tokens?#### Questions related to Machine Learning and related concepts:'?
+What is the purpose of the l function in the given text excerpt?
+How is the relevance of each encoder hidden state computed in the decoder hidden state?
+What are the weights Ws used for in the score computation?
+How is the context value ci computed in the encoder-decoder network with attention?
+What is the advantage of using a bilinear model in the encoder-decoder network with attention?
+What are some common language-based applications for RNNs?
+How do RNNs handle long inputs?
+What is the purpose of backpropagation through time (BPTT) in training RNNs?
+What is the role of LSTMs in addressing the limitations of simple recurrent networks?
+Can you provide examples of language-based applications for RNNs?
+What are some historical notes about the investigation of RNNs?
+How did the introduction of LSTMs impact the practical applications of RNNs?
+What are some approaches that combine LSTMs with pretrained word embeddings?
+Who pioneered the modern neural encoder-decoder approach?
+What is the role of large language models in natural language processing tasks?
+What is the standard architecture used for building large language models?
+How does self-attention contribute to the transformer architecture?
+How do transformers handle distant information in a more efficient way compared to LSTMs?
+What are the components of transformer blocks in the transformer architecture?
+What is the concept of 'How does the transformer architecture enable the prediction of upcoming words in a language model?#### Machine Learning and N-Gram Language Models'?
+What is the purpose of simplifying the equation in the given text excerpt?
+How can we calculate bigram probabilities from a given corpus?
+What is the formula for estimating n-gram probabilities using maximum likelihood estimation (MLE)?
+What is the definition of relative frequency in the context of n-gram language models?
+How can we modify MLE estimates to get better probability estimates?
+What is the significance of the Berkeley Restaurant Project corpus in the context of n-gram language models?
+How do we compute bigram probabilities after normalization?
+What linguistic phenomena are captured by the bigram statistics mentioned in the text?
+Why is it necessary to assume extra contexts for larger n-gram models?
+What is the advantage of using log probabilities instead of raw probabilities in language models?
+What is the difference between extrinsic and intrinsic evaluation of language models?
+What are the three distinct data sets required to evaluate a machine learning model?
+How do we choose a training and test set for language model evaluation?
+What is perplexity and why is it used as a metric for language model performance?
+How do we compute perplexity for unigram and bigram language models?
+What are encoder-decoder models primarily used for in machine learning?
+In which types of tasks are encoder-decoder networks particularly popular?
+What is the key idea underlying encoder-decoder networks?
+What are the three conceptual components of encoder-decoder networks?
+Can different types of sequence architectures be used as decoders?
+How does an encoder-decoder network differ from a language model?
+What is the purpose of the encoder in an encoder-decoder model?
+How is the contextualized representation of the input generated in an encoder-decoder network?
+What is the role of the decoder in an encoder-decoder model?
+How is the output sequence generated in the decoder of an encoder-decoder network?
+What is the purpose of the attention mechanism in an encoder-decoder model?
+How does the attention mechanism address the bottleneck problem in the context vector?
+What is dot-product attention and how does it compute the relevance scores?
+How are the relevance scores normalized to obtain the weights for the encoder hidden states?
+How is the context vector computed using the weights and the encoder hidden states?
+How does the skip-gram model compute the probability P?
+What is the intuition behind the skip-gram model for computing word probabilities?
+How does the skip-gram model compute similarity between word embeddings?
+What is the sigmoid function used for in the skip-gram model?
+How does the skip-gram model model the probability that a word is a context word for a target word?
+How does the skip-gram model handle multiple context words in the window?
+What are the parameters that skip-gram stores for each word?
+How does the learning algorithm for skip-gram embeddings work?
+How does fasttext address the problem of unknown words in word2vec?
+What is the difference between word2vec and GloVe embeddings?
+How can embeddings be visualized?
+What is the concept of 'What are some semantic properties of embeddings that have been studied?#### Questions:'?
+Who were the first authors to suggest sentiment analysis algorithms?
+What method became a standard for sentiment analysis?
+How can crowdsourcing be used to improve precision in sentiment analysis?
+What is the DENSIFIER algorithm used for?
+What is the task of coreference resolution?
+What is the concept of 'Give an example of coreference in a dialogue system.'?
+What is the purpose of entity linking?
+What is the ontology commonly used for entity linking?
+What are the two tasks involved in coreference resolution?
+What is the task of event coreference?
+What is discourse deixis?
+What are the four types of referring expressions?
+What is the difference between indeﬁnite and deﬁnite noun phrases?
+What is the concept of 'Give an example of cataphora.'?
+What is a zero anaphor?
+How are names used in reference?- What is Rhetorical Structure Theory (RST) and how does it define coherence relations?
+What are some examples of coherence relations in RST?
+How does RST represent coherence relations graphically?
+What is the Penn Discourse TreeBank (PDTB) and how does it differ from RST?
+How does PDTB label coherence relations using discourse connectives?
+Can you provide an example of coherence relation labeling using PDTB?
+What are some common coherence relations identified in PDTB?
+How can coherence detection be useful in tasks such as essay grading, summarization, and mental health assessment?
+Are there any other discourse coherence models or corpora available?1. What are the KBP evaluations focused on?
+Who proposed the concept of semisupervised relation extraction?
+What are some systems that have extended the concept of distant supervision?
+Can you name any Open IE systems?
+What is the purpose of the proposed system in exercise 19.1?
+How can the performance of the system in exercise 19.1 be evaluated?
+What is the goal of exercise 19.2?
+How can the performance of the system in exercise 19.2 be compared?
+What is the objective of exercise 19.3?
+How do the temporal expressions in emails compare to those in news text?
+What is the task in exercise 19.4?
+Can you provide FOL translations for the given sentences?
+What are the seven circumstances associated with Hermagoras and Aristotle?
+Who wrote a famous treatise on Sanskrit grammar?
+What does the As.t.¯adhy¯ay¯ı describe?
+What is the task of understanding how participants relate to events called?
+How can a purchase event and its participants be described in different surface forms?
+What is semantic role labeling?
+What is the role of an agent in a sentence?
+Can thematic roles be realized in different syntactic positions?
+What are some problems with representing meaning at the thematic role level?
+What are some alternative versions of semantic roles?
+What is the Proposition Bank (PropBank)?
+How are the semantic roles in PropBank defined for each verb sense?
+What is the concept of 'What are some generalizations about the roles in PropBank?#### Machine Learning and Coreference Resolution Questions'?
+What kind of world knowledge might be needed to solve coreference resolution problems like the trophy/suitcase example?
+What is the current trend in proposing new datasets for coreference resolution problems like the Winograd Schema?
+How do large pretrained language models encode an enormous amount of world or common-sense knowledge?
+What are some examples of datasets with increasingly difficult Winograd-like coreference resolution problems?
+How do coreference models exhibit gender and other biases?
+What does the WinoBias dataset test in coreference algorithms?
+What is the summary of the task of coreference resolution?
+What are the characteristics of the coreference resolution task?
+What is the Hobbs algorithm and its role in identifying reference in naturally occurring text?
+What were the influential entity-based systems and their approaches to coreference resolution?
+How did the move from mention-pair to mention-ranking approaches impact coreference resolution?
+How is coreference related to the task of entity linking discussed in Chapter 14?
+How is machine translation used for information access?
+How is machine translation used to aid human translators?
+What are some applications of machine translation in human communication needs?
+What is the standard algorithm for machine translation?
+What are some challenges in machine translation?
+How do languages vary in their structure and word order?
+How is input tokenization done in machine translation?
+How are parallel training corpora created for machine translation?
+What is the encoder-decoder network in machine translation?
+How is machine translation evaluated?
+What is the chrF metric in machine translation?
+What is topic modeling (statistical modeling for discovering the abstract "topics" that occur in a collection of documents.)?
+What is named entity recognition? Named-entity recognition (NER) is a subtask of information extraction that seeks to locate and classify atomic elements in text into predefined categories such as person names, organizations, locations, medical codes, time, quantities, monetary1. What are some algorithms used for entity linking in Wikipedia?
+How does TAGME create a catalog of entities for entity linking?
+What is the anchor dictionary used for in entity linking?
+How does TAGME detect mentions in a given question?
+What factors does the TAGME algorithm use for disambiguating ambiguous spans?
+How does the relatedness factor help in entity linking?
+What is the neural graph-based linking approach for entity linking?
+How does the ELQ algorithm encode candidate mention spans and entities?
+What datasets are used for training the ELQ mention detection and entity linking algorithm?
+How is the MUC F-measure metric used to evaluate coreference algorithms?
+What is the B3 metric used for evaluating coreference algorithms?
+How are the MUC, CEAF-e, and B3 metrics combined in the CoNLL coreference competitions?
+Are there alternative metrics for evaluating coreference in specific domains or tasks?
+What is the Winograd Schema Challenge?
+What is the concept of 'Can simple techniques like selectional restrictions solve Winograd Schema problems?#### Questions related to "Machine Learning" and Semantic Role Labeling'?
+What is the basic idea behind using a neural approach for Semantic Role Labeling?
+Can you explain the BIO approach in the context of semantic role labeling?
+How are semantic role labeling algorithms evaluated?
+What are selectional restrictions and how are they related to predicates and arguments?
+How is the semantics of selectional restrictions represented using event representation?
+What is the selectional association model of Resnik and how does it measure the strength of association between a predicate and its arguments?
+What is the conditional probability model for computing selectional preferences, and how is it used to model the association of verbs with nouns?
+Can you explain the concept of evaluating selectional preferences using pseudowords?
+How does the Kullback-Leibler divergence play a role in expressing selectional preference strength?
+What is the concept of 'What are some common datasets used for evaluating semantic role labeling?- "Bidirectional models use the same self-attention mechanism as causal models." [[11.1.1]]'?
+What is the concept of '"The output vector yi corresponding to each input element xi is a weighted sum of all the input value vectors v." [[11.2]]'?
+What is the concept of '"The α weights are computed via a softmax over the comparison scores between every element of an input sequence considered as a query and every other element as a key." [[11.3]]'?
+What is the concept of '"The key architecture difference is in bidirectional models we don’t mask the future." [[11.6]]'?
+What is the concept of '"The original English-only bidirectional transformer encoder model, BERT, consisted of an English-only subword vocabulary consisting of 30,000 tokens, hidden layers of size 768, 12 layers of transformer blocks, and about 100M parameters." [[11.6]]'?
+What is the concept of '"The larger multilingual XLM-RoBERTa model, trained on 100 languages, has a multilingual subword vocabulary with 250,000 tokens, 24 layers of transformer blocks, hidden layers of size 1024, and about 550M parameters." [[11.6]]'?
+What is the concept of '"The original approach to training bidirectional encoders is called Masked Language Modeling (MLM)." [[11.2.1]]'?
+What is the concept of '"In BERT, 15% of the input tokens in a training sequence are sampled for learning. Of these, 80% are replaced with [MASK], 10% are replaced with randomly selected tokens, and the remaining 10% are left unchanged." [[11.2.1]]'?
+What is the concept of '"The MLM training objective is to predict the original inputs for each of the masked tokens using a bidirectional encoder." [[11.2.1]]'?
+What is the concept of '"The NSP loss is based on how well the model can distinguish true pairs of adjacent sentences from random pairs." [[11.2.2]]'?
+What is the concept of '"During training, the output vector from the final layer associated with the [CLS] token represents the next sentence prediction." [[11.2.2]]'?
+What is the concept of '"BERT and other early transformer-based language models were trained on about 3.3 billion words." [[11.2.3]]'?
+What is the concept of '"Modern masked language models are now trained on much larger datasets of web text, filtered and augmented with higher-quality data like Wikipedia." [[11.2.3]]#### Questions related to Machine Learning and related subtopics:'?
+What is magnitude estimation and how is it used in evaluating selectional preference models?
+How does the decompositional approach explain the similarity between states and actions or causative and non-causative predicates?
+What are the ten primitive predicates used in conceptual dependency?
+How did semantic roles and thematic roles contribute to the development of natural language processing systems?
+What are some popular features used for semantic role labeling?
+How are neural approaches used in semantic role labeling?
+What is implicit argument detection in semantic role labeling?
+How do unsupervised approaches for semantic role labeling work?
+What are some recent innovations in frame labeling, particularly connotation frames?
+How are selectional preferences integrated into semantic role labeling?
+What is the Scherer typology of affective states and how does it classify different types of affective meaning?
+How can sentiment analysis be used to extract attitudes from text?
+How can emotion and mood detection be useful in various contexts, such as educational systems or customer service?
+How can detecting interpersonal stances be useful in analyzing human-human conversations?
+What are some applications of affective meaning detection in literature or social media analysis?- What are the two methods for dealing with the fact that the affect of a word is different in different contexts?
+According to Hellrich et al. (2019), what is suggested for modeling affect across different historical time periods?
+How are embeddings computed for each pole word in the second step?
+What is the centroid of the embeddings of each seed word?
+How is the semantic axis computed?
+What is the purpose of label propagation in the SentProp algorithm?
+How is the lexical graph built in the SentProp algorithm?
+What are the four steps of the SentProp algorithm?
+How are word scores created in the SentProp algorithm?
+What are some alternative methods for measuring similarity with seed words?
+How does the Hatzivassiloglou and McKeown (1997) algorithm use syntactic cues to determine similarity between adjectives?
+How does the SentiWordNet algorithm assign polarity to WordNet senses?
+What is the supervision signal used in supervised learning of word sentiment?
+How can review scores be used as supervision for word sentiment?
+What is the Potts score and how is it computed?
+What is the shape of the Potts diagram for strongly positive and negative adjectives?
+How do emphatics and attenuators differ in their Potts diagrams?
+What is the concept of 'What is the purpose of the Log Odds Ratio Informative Dirichlet Prior in word sentiment analysis?#### List of Questions for Reinforcing Concepts of "Machine Learning" and Related Subtopics'?
+What is the concept of 'General Concepts:'?
+What are some practical problems posed by the restriction to Chomsky Normal Form (CNF) in constituency parsing?
+How can the returned CNF trees be made consistent with the original grammar built by the grammar developers?
+What approach can be used to transform trees back to the original grammar as a post-processing step of the parse?
+In what cases is it more convenient to alter the basic CKY algorithm to handle unit productions directly?
+What is the concept of 'Span-Based Neural Constituency Parsing:'?
+What problem does the CKY parsing algorithm face in terms of disambiguating among the possible parses?
+How does the span-based neural constituency parsing algorithm solve the disambiguation problem?
+Can you describe the process of computing scores for a span in the span-based neural constituency parsing algorithm?
+How are span scores integrated into a parse in the span-based neural constituency parsing algorithm?
+What is the concept of 'Evaluating Parsers:'?
+What is the standard tool for evaluating parsers that assign a single parse tree to a sentence?
+How is the PARSEVAL metric used to measure the precision and recall of constituents in the hypothesis parse tree?
+What additional metric is used for comparing parsers that use different grammars in the PARSEVAL metric?
+What is the concept of 'Heads and Head-Finding:'?
+What is the concept of lexical heads in the context of syntactic constituents?
+How are heads associated with constituents in the context of dependency parsing?
+Can you explain the alternative approach to finding a head used in most practical computational systems?
+What are some rules used for dynamically identifying heads in practical computational systems?
+What is the concept of 'Summary of Constituency Parsing:'?
+Can you provide a summary of the main points covered in the chapter on constituency parsing?
+What are the common sources of structural ambiguity in parsing and how are they addressed?
+How does the CKY algorithm handle ambiguity and what limitations does it have in choosing the best parse?
+What is the concept of 'Additional Information:'?
+Can you provide more details on the practical problems posed by the restriction to Chomsky Normal Form (CNF) in constituency parsing?
+Is there any specific information about the implementation and training of the span-based neural constituency parsing algorithm?
+Can you elaborate on the process of dynamically identifying heads in practical computational systems and the rules used for this purpose?1. What is the purpose of using one-hot vectors in selecting token embeddings from the embedding matrix?
+How does the multiplication of a one-hot vector with the embedding matrix result in the embedding for a specific word?
+How can the entire token sequence be represented as a matrix of one-hot vectors, and what does each vector represent?
+What are positional embeddings, and how are they combined with token embeddings to represent the position of each token in the sequence?
+What are the potential problems with the simple absolute position embedding approach, and what alternative approach is suggested?
+What is the role of the language modeling head in a transformer model?
+How does the language modeling head enable language modeling in a transformer model?
+What is the purpose of the linear layer in the language modeling head of a transformer model?
+How are probabilities over the vocabulary generated in the language modeling head of a transformer model?
+What is the significance of using weight tying in the language modeling head of a transformer model?
+What is the function of the unembedding layer in a transformer model's language modeling head?
+How are logits produced from the output of a transformer model, and how are they used to generate text?
+What is the logit lens in a transformer model, and how is it used for interpretability?
+How is text completion achieved with a transformer-based large language model?
+How does the ability of large language models to incorporate the entirety of the earlier context and generated outputs at each time step contribute to their power?
+In what way can sentiment analysis be cast as language modeling using a large language model?
+How can question answering be cast as word prediction using a large language model?
+What is the concept of 'How can text summarization be cast as language modeling using a large language model?#### Questions about Machine Learning and Related Subtopics:'?
+What is the purpose of Kyle Waring's business, ShipSnowYo.com?
+How many orders for snow has Kyle Waring's website filled?
+What is the record for the snowiest month in Boston's history?
+What is greedy decoding in the context of language generation?
+Why is greedy decoding not commonly used with large language models?
+What is the problem with using random sampling for text generation?
+How does top-k sampling differ from greedy decoding?
+What is the purpose of top-p sampling or nucleus sampling?
+What is temperature sampling and how does it affect word probabilities?
+How is a transformer trained as a language model using self-supervised learning?
+What is the concept of teacher forcing in language model training?
+What is the concept of 'How does the training process differ between RNN-based language models and transformer-based language models?#### Questions about Machine Learning:'?
+What are some methods for disambiguation in machine learning?
+How do span-based neural constituency parsers work?
+What metrics are used to evaluate parsers?
+What are partial parsing and chunking, and how are they solved in machine learning?
+Who introduced the idea of breaking up a sentence into constituents?
+How was the idea of constituency taken up into linguistics?
+What is immediate-constituent analysis and when was it established as a method of syntactic study?
+What are the differences between traditional European grammar and dependency grammars?
+When was the context-free grammar formalized and what is its significance in parsing algorithms?
+Who first implemented a dynamic programming parser and what are its time complexities?
+What were the earliest disambiguation algorithms for parsing based on?
+When were neural methods first applied to parsing and what were they initially used for?
+What are some neural parsing algorithms that have been developed over the years?
+What is the classic reference for parsing algorithms in computer languages?
+What are some advantages of dependency grammars over phrase-structure grammars?
+How do dependency grammars deal with languages with free word order?
+What are some examples of grammatical relations in dependency parsing?
+What is the Universal Dependencies project and what does it provide?
+How can a dependency structure be represented as a directed graph?
+What are the common constraints on dependency structures in parsing?
+How are constituents represented in span-based neural constituency parses?
+What is the purpose of the labeled recall and labeled precision metrics in evaluating parsers?
+How do partial parsing and chunking methods identify syntactic constituents in a text?
+What is the history of constituency parsing in American Structuralism?
+How does the context-free grammar relate to the idea of hierarchical constituency?
+When and where was the dynamic programming parser first implemented?
+What is the relationship between the CKY algorithm and the dynamic programming parser?
+What were some early disambiguation algorithms for parsing based on probabilistic context-free grammars?
+How were neural networks used in early statistical constituency parsers?
+What are some examples of neural parsing algorithms and architectures that have been developed?
+What is the motivation behind the PARSEVAL metrics described in Section 17.8?
+How can the metrics be compared against a standard implementation and what is the analysis process?
+How can negative samples be chosen in machine learning? 
+What is the model architecture used for coherence scoring in machine learning? 
+What is a pre-trained generative model used as a sentence encoder in machine learning? 
+What are some evaluation tasks for evaluating coherence models in machine learning? 
+What are conversational hot spots and how can they help in meeting summarization in machine learning?
+How can detecting the personality of a user improve conversational agents?
+How is affect important for generation as well as recognition in conversational agents?
+What is the alternative model for sentiment classification that focuses only on certain words?
+What are affective lexicons or sentiment lexicons and what role do they play in sentiment analysis?
+What is the difference between affective meanings and connotations of words?
+How can connotation lexicons be useful for affective tasks and computational social science analysis?
+What are the basic theories of emotion in computational models of emotion in NLP?
+How can detecting emotion improve language processing tasks such as dialogue systems?
+What are some widely used families of theories of emotion in NLP?
+What are the basic emotions proposed by Ekman and how are they universally present in all cultures?
+What is the Plutchik wheel of emotion and what emotions does it consist of?
+How are sentiment and emotion related and how is sentiment a special case of emotions?
+What are some available sentiment and affect lexicons that have been created and released?
+What are some examples of positive and negative words in sentiment lexicons?
+How do lexicons like NRC Valence, Arousal, and Dominance (VAD) assign values to words on affective dimensions?
+What is the NRC Word-Emotion Association Lexicon (EmoLex) and what emotions does it include?
+What is LIWC and what lexicons does it include for social psychological tasks?
+How are affect lexicons built using human labeling and what are some examples of lexicons built this way?
+How are affect lexicons built using crowdsourcing and what are some examples of lexicons built this way?
+How are seed-based semi-supervised lexicon induction algorithms used to learn sentiment lexicons?
+What are some examples of semantic axis methods used in semi-supervised lexicon induction?
+What is the concept of 'What are some examples of graph-based methods used in semi-supervised lexicon induction?#### Questions related to "Machine Learning" and related subtopics:'?
+What is a context-free grammar (CFG) and what are its components?
+Can you explain the concept of context-free rules and how they are used in modeling constituent structure in natural language?
+What is the significance of the lexicon in the context of context-free grammars?
+How can a context-free grammar be used to generate a set of strings? 
+What is the formal definition of a context-free grammar (CFG) and the language it generates?
+What is meant by "generative grammar" in the context of language modeling?
+What is the role of treebanks in parsing and linguistic investigations of syntactic phenomena?
+Can you explain the concept of grammar equivalence and normal form in the context of context-free grammars?
+What is Chomsky normal form (CNF) and why is it useful in the context of context-free grammars?
+How can a context-free grammar be converted into Chomsky normal form (CNF)?
+What is the concept of 'How are ambiguity and ambiguity resolution addressed in the context of context-free grammars and constituency parsing?#### Questions:'?
+What is the purpose of the cross-entropy in machine learning?
+How can a simplified model help estimate the true entropy of a sequence of symbols?
+How is the accuracy of a model measured in terms of cross-entropy?
+What is the relation between perplexity and cross-entropy?
+How is perplexity defined for a model on a sequence of words?
+What is the summary of the chapter on language modeling and n-grams?
+What are n-grams and how are they estimated in a language model?
+How are n-gram language models evaluated?
+What is the perplexity of a test set according to a language model?
+What are the smoothing algorithms used in n-gram models?
+What is the discounted probability used in Kneser-Ney smoothing?
+Who proposed the underlying mathematics of the n-gram?
+Who applied n-grams to compute approximations to English word sequences?
+What is the significance of the IBM group in the field of language modeling?
+How do neural network language models overcome the limitations of n-grams?
+What is the task of text categorization?
+How is sentiment analysis related to text categorization?
+What are some examples of other text classification tasks?
+What is the goal of supervised machine learning in text classification?
+What is the concept of 'How is supervised classification formally defined?#### Questions about Machine Learning and Related Subtopics:'?
+What are some examples of recent advancements in machine learning algorithms?
+What are some common techniques used for handling unknown words in natural language processing?
+How do state-of-the-art part-of-speech taggers utilize neural algorithms?
+According to Manning (2011), what are some of the main sources of errors in high-performing taggers?
+What are some ways to relax the assumption of supervised tagging relying on in-domain training data?
+Where can I find historical notes on parts of speech and information about tagsets?
+How can we evaluate the performance of a part-of-speech tagger?
+What are the main differences between recurrent neural networks (RNNs) and feedforward networks?
+How do RNNs handle the temporal nature of language?
+What is the purpose of the recurrent connection in an RNN?
+How is forward inference in an RNN different from that in a feedforward network?
+How are RNNs trained? What is the process of backpropagation through time?
+Can recurrent neural networks be trained using the same approach as feedforward networks?
+What is the structure of a simple recurrent neural network (RNN)?
+How does the recurrent link in an RNN affect the computation at the hidden layer?
+How does an RNN handle the sequential nature of language?
+What is the role of the hidden layer in an RNN?
+How is inference performed in an RNN?
+What are the different sets of weights in an RNN, and how are they updated during training?
+Can you explain the two-pass algorithm used for training RNNs?
+How can modern computational frameworks simplify the training of RNNs?
+What is the regular expression language used for?
+What are the basic operations in regular expressions?
+How are word tokenization and normalization typically done?
+What is the Porter algorithm used for?
+How is the minimum edit distance between two strings computed?
+Who first defined regular expressions and the finite automaton?
+What are some text normalization algorithms that have been applied since the beginning of the field?
+What is NLTK and what does it offer?
+What are some applications of language models?
+What is the purpose of a language model?
+How are n-gram language models defined?
+What is the chain rule of probability?
+What is the Markov assumption in language modeling?
+How are n-gram probabilities estimated using maximum likelihood estimation?
+What is the concept of 'What is the purpose of normalizing probabilities in language models?#### Possible Questions:'?
+What is the concept of first-order associate in the context of a book or poem?
+How are second-order associates determined in the context of word co-occurrence?
+Can you explain the parallelogram model for solving simple analogy problems?
+How does the parallelogram model work for analogy problems using word vectors?
+What is the significance of the vector from the word apple to the word tree in the parallelogram model?
+How does the parallelogram model perform with word2vec or GloVe vectors?
+Can you provide an example of the parallelogram method using word vectors?
+What are some limitations of the parallelogram method with embeddings?
+How can embeddings be used to study how meaning changes over time?
+Can you explain the visualization of changes in meaning in English words over the last two centuries?
+What are some examples of biases and stereotypes that can be reproduced by embeddings?
+How do embeddings exhibit gender stereotypes in analogy examples?
+What is the concept of representational harm caused by embeddings?
+How have researchers attempted to remove biases from embeddings?
+How do historical embeddings measure biases in the past?
+What is the importance of extrinsic evaluation in evaluating vector models?
+What intrinsic evaluation metrics are commonly used for vector models?
+Can you explain the analogy task used for evaluating vector models?
+What are some sources of variability in embedding algorithms?
+How can multiple embeddings be used to study word associations in specific corpora?- What are some examples of the four major semantic classes in the PDTB sense hierarchy?
+How many explicit relations and implicit relations are contained in the final dataset?
+What is the purpose of the EDU segmentation for RST parsing?
+What are the actions involved in the RST parsing shift-reduce parser?
+How is the encoder-decoder architecture used in the RST parsing process?
+What is the standard evaluation metric used for RST discourse parsers?
+How are RST discourse parsers evaluated on the test section of the RST Discourse Treebank?
+What are the four metrics used to evaluate RST discourse parsers?
+What is the concept of 'What is the purpose of shallow discourse parsing in the PDTB discourse parsing process?#### Questions on Machine Learning and Related Subtopics'?
+What are some of the regularities in coherent texts reflected in grid topology?
+How are local entity transitions defined in a coherent text?
+What is the significance of entity grids as feature vectors in machine learning algorithms?
+How are entity classes computed in the context of entity-based models?
+What considerations guide the exploration of the parameters space in entity-based models?
+How are coherence models, including neural and entity-based models, generally evaluated?
+What is the purpose of self-supervision in evaluating coherence algorithms?
+Can you explain the sentence order discrimination task and its relevance in evaluating coherence models?
+What are the challenges involved in the sentence insertion task for coherence evaluation?
+How do discourses cohere through the sharing of identical or semantically related words in nearby sentences?
+Can you explain the LSA Coherence method and its use of embeddings for modeling coherence between sentences?
+What is the architecture of the local coherence discriminator (LCD) model for document coherence?
+How is the training objective defined for the LCD model in the context of coherence evaluation?
+What is the baseline algorithm that can be used for measuring perplexity in coherence evaluation?
+How is the global coherence of a discourse different from coherence at the level of pairs of sentences?
+What is the significance of narrative structure in modeling global coherence, as exemplified by Propp's work on folktales?
+How is the hidden layer "h" obtained using the ReLU activation function?
+What is the role of the embedding layer in a feedforward neural language model?
+How is the embedding layer computed using the one-hot vector and the embedding matrix?
+What is the significance of the weight matrix "W" in a neural language model?
+How does the softmax function affect the output layer in a neural language model?
+How is the probability of the next word estimated in the output layer of a neural language model?
+What are the equations for a neural language model with a window size of 3 and one-hot input vectors?
+How is self-training or self-supervision used in training neural language models?
+What is the role of the embedding matrix "E" in training a neural language model?
+What is the process of freezing the embedding layer in a neural language model?
+How can embeddings be learned simultaneously with training the network in a neural language model?
+How is gradient descent used to train the parameters of a neural language model?
+What is the purpose of the error backpropagation algorithm in training a neural language model?
+How do neural networks learn representations that can be utilized by later layers in the network?
+What is the role of neural units in a neural network?
+How are neural networks trained using optimization algorithms like gradient descent?
+How does error backpropagation compute the gradients of the loss function in a neural network?
+What is the difference between a neural language model and a neural network?
+What is the concept of 'How are pretrained embeddings used in neural language models?#### Generated Questions'?
+What is the representation used for the output y for each input x?
+What is a one-hot vector and how is it used in the context of the classifier?
+How is the softmax function defined for a vector z of dimensionality K?
+What is the concept of 'Explain the process of applying softmax in logistic regression.'?
+How do features in multinomial logistic regression differ from those in binary logistic regression?
+What are the two components required for learning in logistic regression?
+What is the cross-entropy loss function and how is it expressed for an observation x?
+How does gradient descent find the optimal weights for logistic regression?
+Why is it important for the loss function in logistic regression to be convex?
+What is the purpose of the one-hot vector in logistic regression?
+How does the softmax function relate to the calculation of output probabilities in logistic regression?
+What is the role of the weight matrix W and the bias vector b in logistic regression?
+How are features represented in multinomial logistic regression, and how does it differ from binary logistic regression?
+What is the significance of the cross-entropy loss function in logistic regression, and how is it calculated?
+What is the intuition behind using gradient descent to minimize the loss function in logistic regression?
+What is the purpose of the softmax function in the context of multinomial logistic regression?
+How is the softmax function used to compute output probabilities for each class in multinomial logistic regression?
+How are separate weight vectors and biases used for each of the K classes in multinomial logistic regression?
+How does the cross-entropy loss function help in learning the parameters of the model in multinomial logistic regression?
+Why is it important for the loss function in multinomial logistic regression to be convex?- What is the algorithm based on for the series of rewrite rules? 
+Where can more details about the sample rules be found? 
+What are some useful cues for segmenting a text into sentences? 
+How are question marks and exclamation points used as sentence boundary markers? 
+What are the challenges with using periods as sentence boundary markers? 
+How do sentence tokenization methods work? 
+How is sentence splitting determined in the Stanford CoreNLP toolkit? 
+What is the purpose of the minimum edit distance in natural language processing? 
+How is the minimum edit distance between two strings defined? 
+What are the different operations involved in the minimum edit distance algorithm? 
+What is the intuition behind dynamic programming in the minimum edit distance algorithm? 
+How is the minimum edit distance algorithm used to find the alignment between two strings? 
+How is the alignment represented in the minimum edit distance algorithm? 
+What is the intuition behind the backtrace in the minimum edit distance algorithm? 
+How can the minimum edit distance algorithm be extended to produce an alignment? 
+What is the role of dynamic programming in solving the minimum edit distance problem? 
+What are some commonly used algorithms in natural language processing that make use of dynamic programming? 
+What is the intuition behind dynamic programming in solving large problems? 
+How is the minimum edit distance algorithm used in finding potential spelling error corrections? 
+How is the minimum edit distance algorithm used in aligning two strings? 
+What is the intuition behind the minimum edit distance algorithm? 
+How is the minimum edit distance between two strings computed using dynamic programming? 
+What are the different costs associated with the minimum edit distance algorithm? 
+How can the minimum edit distance algorithm be modified to store backpointers and compute a backtrace? 
+What is the purpose of the alignment in the minimum edit distance algorithm? 
+How can the minimum edit distance algorithm be used in machine translation? 
+What is the concept of 'What is the difference between the minimum edit distance and the Viterbi algorithm? [[3]]#### Questions about Machine Learning and Related Subtopics:'?
+What is the difference between macroaveraging and microaveraging in machine learning?
+How are test sets and cross-validation used in text classification?
+What is the purpose of cross-validation in machine learning?
+How does cross-validation work and what are the benefits?
+Why is it important to have a fixed training set, devset, and test set in machine learning?
+How does statistical significance testing help in comparing the performance of two systems?
+What is the null hypothesis in statistical significance testing?
+What is the p-value and how is it used to determine statistical significance?
+What are the common non-parametric tests used in NLP for statistical significance testing?
+How does the paired bootstrap test work in statistical significance testing?
+What are some common harms that can result from classification algorithms?
+How can representational harms be avoided in machine learning?
+What is toxicity detection in relation to classification algorithms?
+What is the terminology used to describe logistic regression as a neural network?
+What do the variables n1, b, h, and ∈ represent in the context of feedforward networks?
+How can the activation functions be different at the final layer?
+What is the purpose of the unnormalized values in the final vector before the final softmax?
+Why do we use non-linear activation functions in neural networks?
+How can the bias node be replaced in the computation of a neural network?
+What are some ways to represent the input for classification in neural networks?
+What is the advantage of using pretrained word embeddings as input representations?
+What is the loss function commonly used in neural networks for classification tasks?
+How is the gradient computed for the loss function in neural networks?
+What is the purpose of error backpropagation in training neural networks?
+What is a computation graph and how is it used in the backpropagation algorithm?
+What are the two parameters added by BM25?
+How is the BM25 score of a document given a query calculated?
+What happens to BM25 when k is 0?
+What are the suggested reasonable values for k and b in BM25?
+What is the significance of a stop list in the context of BM25?
+What is the purpose of an inverted index in information retrieval?
+How does an inverted index efficiently find documents containing query terms?
+What are the components of an inverted index?
+What are the alternatives to the inverted index in the question-answering domain?
+How is the performance of ranked retrieval systems measured?
+What are precision and recall, and how are they defined?
+Why are precision and recall not adequate for measuring the performance of a system that ranks the returned documents?
+What is the precision-recall curve used for in information retrieval systems?
+What conceptual flaw do classic tf-idf or BM25 algorithms for IR have?
+How does using dense embeddings address the vocabulary mismatch problem?
+What is the most powerful approach for information retrieval with dense vectors?
+What are the advantages and disadvantages of using the bi-encoder architecture for information retrieval?
+What is the ColBERT approach and how does it differ from other information retrieval methods?
+How is the scoring mechanism defined in the ColBERT architecture?
+What is the purpose of the linear layer applied on top of the passage and query vectors in ColBERT?
+How is the ColBERT architecture trained?
+How are negative examples generated for supervised algorithms like ColBERT?
+What are some ways to obtain labeled positive examples for training retrieval-based QA algorithms?
+What is the role of approximate nearest neighbor vector search algorithms like Faiss in efficient document ranking?
+What is the dominant paradigm for retrieval-based QA?
+How does the retrieve and read model work in retrieval-based QA?
+What are some commonly used question answering datasets for retrieval-based QA?
+How are reading comprehension datasets used to create datasets for retrieval-based QA?
+What are some challenges posed by the TyDi QA dataset for QA systems?
+What is the goal of the span extraction style of reader in reading comprehension?
+How do neural algorithms for reading comprehension compute the probability of each possible span being the answer?
+How are start and end probabilities computed for span-based question answering?
+What is the training loss used for fine-tuning a span-based reader?
+How is the probability estimated for the answer not being in the document in reading comprehension tasks?
+What is the retrieval-augmented generation method for reader algorithms?
+What is the purpose of the retrieve and read model in retrieval-based question answering?
+How are datasets for retrieval-based QA commonly created?
+What is the concept of 'How are reading comprehension datasets modified to create open-domain QA datasets?Here are the questions without answers that can be asked based on the text:'?
+What scheme was used to select pairs of text segments for training the original BERT models?
+How many passes (epochs) over the training data was required for the model to converge?
+What change in the training regime does the RoBERTa model introduce compared to the original BERT models?
+How are multilingual models trained to build the vocabulary, and what factors influence this decision?
+What are the potential advantages of pretrained multilingual models over monolingual models?
+What is the curse of multilinguality, and what are its implications for multilingual models?
+How are contextual embeddings defined, and how are they used in natural language processing tasks?
+What is word sense disambiguation (WSD), and how is it relevant in text analysis and model interpretability?
+What are the challenges in measuring similarity between contextual embeddings, and what transformations are typically required?
+How does the anisotropy of a model affect the cosine similarity of word embeddings in the context of natural language processing?
+What is the main model used in the RBERT approach for computing the recall metric?
+How are BERT embeddings computed for each wordpiece token?
+What is the purpose of similarity measures in RBERT?
+How is the cosinesimilarity of a reference token and a candidate token computed?
+How are precision and recall combined to compute the F1 score in FBERT?
+How can importance weighting be incorporated into BERTSCORE?
+What are some potential applications of machine translation systems in urgent situations?
+Why is it important for machine translation systems to assign confidence values to candidate translations?
+What are some challenges in machine translation related to non-stereotypical gender roles?
+What is the purpose of backtranslation in machine translation?
+What is one ethical concern raised by the mapping of pronouns to gender in machine translation systems?
+How do machine translation systems perform when translating sentences that describe people with non-stereotypical gender roles?
+Why is it important to develop metrics for knowing what machine translation systems don't know?
+What are some potential scenarios in which machine translation systems can be used to avoid harm?
+What is the role of conﬁdence values in preventing incorrect translations that may cause harm?
+What is one open problem in machine translation related to ethical considerations?
+What are some structural and lexical differences between languages that make translation difficult?
+How do encoder-decoder networks work in machine translation?
+What is the role of cross-attention in transformer decoders?
+How are machine translation models trained on parallel corpora?
+What are some common evaluation metrics used for machine translation?
+What were some early approaches to machine translation before the advent of statistical methods?
+How did statistical methods revolutionize machine translation research?
+What is the role of neural networks in modern machine translation?
+What were some early methods used for evaluating machine translation systems?
+What are some more recent evaluation metrics used in machine translation?
+What is a Random Forest?
+How do you decide which machine learning algorithm to use for a given dataset?
+What are the advantages and disadvantages of using Neural Networks in machine learning?
+What is the difference between deep learning and machine learning?
+What is the main key difference between supervised and unsupervised machine learning?
+What is Model Selection in machine learning?
+What are the two methods used for calibration in Supervised Learning?
+Which method is frequently used to prevent overfitting in machine learning?
+What is Inductive Logic Programming (ILP) in machine learning?
+What is the difference between heuristic for rule learning and heuristics for decision trees in machine learning?
+What is the Naive Bayes algorithm and how is it used in machine learning?
+What is the concept of 'Explain Dependency Parsing in Natural Language Processing (NLP).'?
+Why is NLP (Natural Language Processing) considered difficult?
+What are some common machine learning algorithms used for classification problems?
+What is the difference between supervised and unsupervised learning in machine learning?
+What is the role of hyperparameters in model-based learning methods?
+What is the purpose of Model-based learning methods in machine learning?
+What is the bagging technique in machine learning and how is it used?
+What is the concept of reinforcement learning in machine learning?
+What are the different types of machine learning?
+What is the role of coherence relations in discourse processing?
+What are some approaches to extracting coherence relations in discourse?
+How does RST parsing work and what are some machine learning algorithms used for RST parsing?
+How is self-supervision used for coherence modeling?
+What is the concept of global coherence in discourse and how is it modeled?
+How are explicit and implicit discourse connectives related, and how can they be used to create discourse-aware representations?
+What is entity-based coherence and how is it modeled in discourse processing?
+What is the grid model of entity-based coherence and how does it work?
+How have theories of discourse coherence been applied to interpreting linguistic phenomena like verb phrase ellipsis and tense interpretation?
+Can you recommend any surveys or resources for further reading on discourse processing and structure?
+What is the purpose of an alignment in machine learning?
+How does the collapsing function work in the CTC algorithm?
+What is the special symbol used to represent silence in the CTC algorithm?
+How does the CTC collapsing function handle repeated letters?
+Are all alignments that produce the same output string considered legitimate?
+How does the CTC algorithm assign probabilities to different alignments?
+What is the role of the encoder in the CTC inference process?
+How is the word error rate calculated in speech recognition evaluation?
+What is the purpose of the MAPSSWE test in ASR evaluation?
+Can McNemar's test be used for signficance testing in continuous speech recognition?1. What is semantic role labeling?
+What are the two main resources used for semantic role labeling?
+How do FrameNet and PropBank differ in their approach to semantic role labeling?
+What is a frame in FrameNet?
+How does FrameNet handle semantic roles?
+What are core roles and non-core roles in FrameNet?
+What is the purpose of the change position on a scale frame in FrameNet?
+How does semantic role labeling differ from syntactic parsing?
+What are some common features used in semantic role labeling?
+How can global optimization be applied to semantic role labeling?
+What is the role of the governing predicate in semantic role labeling?
+How does the phrase type of a constituent affect its semantic role?
+What is the significance of the headword of a constituent in semantic role labeling?
+How does the path in the parse tree from a constituent to the predicate contribute to semantic role labeling?
+How does the voice of a clause impact semantic role labeling?
+How does the linear position of a constituent with respect to the predicate affect its semantic role?
+What is subcategorization and how is it used in semantic role labeling?
+How can named entity types be used in semantic role labeling?
+How can the first and last words of a constituent be used as features in semantic role labeling?
+What are some challenges in semantic role labeling and how are they addressed?
+What is the chrF metric and how is it computed?
+What are character n-grams and how are they used in chrF computation? 
+What are the parameters k and β used in chrF and what do they represent?
+How are precision, recall, and F-score calculated as part of chrF? 
+What is the difference between chrP and chrR in chrF computation?
+How is BLEU different from chrF in evaluating machine translations?
+What are embedding-based automatic evaluation methods and how do they work? 
+What is BERTScore and how is it computed using contextual embeddings?
+What are the limitations of character/word overlap metrics like chrF and BLEU?
+What is statistical significance testing used for when evaluating multiple MT systems? 
+How can human evaluation of MT be conducted and what are its advantages/disadvantages compared to automatic metrics?
+What is the importance of careful statistical methodology in machine learning?
+How is human evaluation emphasized in the field of machine learning?
+Can you provide examples of papers that emphasize the importance of careful statistical methodology and human evaluation in machine learning?
+Where can I find information about the early history of machine translation?
+Are there any recommended readings on the early history of machine translation?
+Who is Hutchins and what did they write about the early history of machine translation?
+What is linguistic typology and where can I find introductions to it?
+Can you recommend any books on linguistic typology?
+How can I compute the chrF2,2 score for HYP2 on page 286?
+What is the significance of question answering and information retrieval in machine learning?
+How do question answering systems fill human information needs?
+What types of questions can be answered by question answering systems?
+How can a large language model be used for question answering?
+What are the limitations of prompting a large language model for question answering?
+Why are large language models often not well-calibrated for question answering?
+What are the challenges of asking questions about proprietary data in question answering?
+What is the two-stage retriever/reader model for question answering?
+How does the two-stage retriever/reader model overcome the limitations of prompting a large language model?
+What is information retrieval and how is it relevant to question answering?
+What are some common techniques used in information retrieval?
+What is ad hoc retrieval and how does it relate to question answering?
+How are documents scored in information retrieval?
+What is term weighting and how does it affect document scoring?
+What is tf-idf weighting and how is it calculated?
+What is the inverse document frequency (idf) in tf-idf weighting?
+How does tf-idf weighting help in information retrieval?
+Can you provide examples of tf-idf values for specific words in a document collection?
+How is the cosine similarity used in document scoring?
+Can you explain the computation of tf-idf cosine score using an example?
+What are some variants and approximations of the tf-idf cosine model?
+How does the retrieval/reader model work in question answering?
+What are span extractors and retrieval-augmented generation in retriever-based question answering?
+How does information retrieval relate to question answering and information retrieval?
+What is the goal of information retrieval?
+What is an ad hoc retrieval engine and how does it function?
+What is term weight and how is it computed in information retrieval?
+What is the vector space model used in information retrieval?
+What is the bag-of-words model and how does it relate to the vector space model?
+Can you explain the term weighting and document scoring process in information retrieval?
+What is BM25 and how is it used in information retrieval?
+Can you provide an overview of information retrieval?
+Where can I find more resources on information retrieval?
+What is the difference between ad hoc retrieval and other types of retrieval tasks?
+Can you explain the concept of a collection in information retrieval?
+How are queries and documents represented in the vector space model?
+What is the importance of cosine similarity in document scoring?
+Can you provide a step-by-step example of document scoring using tf-idf cosine?
+What are some common variants and approximations of the tf-idf cosine model in information retrieval?
+What is the role of information retrieval in question answering and information retrieval?- What are the main classes of algorithms for relation extraction?
+How does the lexico-syntactic pattern algorithm work for relation extraction?
+What are some examples of lexico-syntactic patterns for finding hypernyms?
+How does supervised learning approach to relation extraction work?
+What are some typical features used in feature-based supervised relation classifiers?
+How do neural supervised relation classifiers work?
+What is bootstrapping in relation extraction and how does it work?
+What is the concept of 'How does distant supervision method combine bootstrapping with supervised learning in relation extraction?#### Questions about Machine Learning:'?
+What are task-based dialogue systems based on?
+What are frames in a task-based dialogue system?
+What is the purpose of frames in a task-based dialogue system?
+How are slots filled in a frame-based dialogue system?
+What are the types of questions used to fill slots in a frame-based system?
+How are slot fillers constrained in a frame-based system?
+What are the three main tasks associated with slot filling?
+How are slot fillers extracted in a supervised machine learning system?
+What is the evaluation metric used for task-based dialogue systems?
+How is the slot error rate calculated?
+What are the components of a dialogue-state system?
+What are dialogue acts and how are they related to speech acts?
+What is the purpose of dialogue acts in a dialogue system?
+What is dialogue state tracking and what does it involve?
+How does a dialogue state tracker determine the current state of a frame?
+What are some features used for detecting user correction acts?
+What is dialogue policy and what does it determine?
+How does a dialogue policy decide which dialogue act to generate?
+What are some examples of dialogue acts used for conﬁrmation?
+How can a system handle user utterances it doesn't understand?
