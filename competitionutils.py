@@ -1,7 +1,6 @@
 import os
-import csv
 import json
-import pathlib
+
 
 JSON_FILETRACKER = os.path.join('question_bank', 'info.json') # path to dictionary that tracks the location of the line for the question file
 
