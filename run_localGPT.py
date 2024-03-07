@@ -40,7 +40,6 @@ from constants import (
 )
 
 
-
 def load_model(device_type, model_id, model_basename=None, LOGGING=logging):
     """
     Select a model for text generation using the HuggingFace library.
